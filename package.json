@@ -1,0 +1,25 @@
+{
+  "name": "xlsx",
+  "version": "1.0.0",
+  "author": "bobxie",
+  "description": "将excel导出为json和typescript文件的工具",
+  "license": "MIT",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "tsc",
+    "excel": "node dist/app.js excel",
+    "excel:dev": "ts-node src/app.ts excel",
+    "pkg:win": "pkg dist/app.js --targets node18-win-x64 --compress GZip --out-path pkg/win",
+    "pkg:linux": "pkg dist/app.js --targets node18-linux-x64 --compress GZip --out-path pkg/linux"  
+  },
+  "dependencies": {
+    "global": "^4.4.0",
+    "pkg": "^5.8.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.14",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}

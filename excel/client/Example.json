@@ -1,0 +1,90 @@
+[
+    {
+        "id": 1,
+        "str": "xxx",
+        "bool": true,
+        "num": 666,
+        "nlist": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "slist": [
+            "",
+            "sss",
+            "中文"
+        ],
+        "obj": {
+            "a": 1,
+            "b": "xxx"
+        },
+        "objList": [
+            {
+                "a": 1,
+                "b": "yyy"
+            },
+            {
+                "a": 2,
+                "b": "zzz"
+            }
+        ],
+        "onlyClient": "仅客户端"
+    },
+    {
+        "id": 2,
+        "str": "ooo",
+        "bool": false,
+        "num": 3.14,
+        "nlist": [
+            10
+        ],
+        "slist": [
+            "yzyz"
+        ],
+        "obj": {
+            "a": 0,
+            "b": "对象成员"
+        },
+        "objList": [
+            {
+                "a": 10,
+                "b": "对象数组"
+            }
+        ],
+        "onlyClient": ""
+    },
+    {
+        "id": 3,
+        "str": "我是一个字符串",
+        "bool": false,
+        "num": -0.33,
+        "nlist": [],
+        "slist": [],
+        "obj": {
+            "a": 0,
+            "b": ""
+        },
+        "objList": [
+            {
+                "a": 0,
+                "b": ""
+            }
+        ],
+        "onlyClient": ""
+    },
+    {
+        "id": 4,
+        "str": "",
+        "bool": false,
+        "num": 0,
+        "nlist": [],
+        "slist": [],
+        "obj": {
+            "a": 0,
+            "b": ""
+        },
+        "objList": [],
+        "onlyClient": ""
+    }
+]
